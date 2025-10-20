@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+a {
+  cursor: pointer;
+}
+
+a:hover {
+  background-color: burlywood;
+  color: black;
+}

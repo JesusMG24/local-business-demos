@@ -1,0 +1,46 @@
+---
+import "../styles/global.css";
+import Header from "../components/Header.astro";
+import Hero from "../components/Hero.astro";
+import Menu from "../components/Menu.astro";
+import Location from "../components/Location.astro";
+import Contact from "../components/Contact.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Pizzería La Tradición — Disfruta de las mejores pizzas artesanales en Mérida. Ingredientes frescos, sabor auténtico y entrega rápida."
+    />
+    <title>Pizzería La Tradición | Mérida</title>
+  </head>
+  <body class="font-sans text-gray-800 scroll-smooth">
+    <Header />
+    <main>
+      <section id="inicio">
+        <Hero />
+      </section>
+      <section id="menu" class="py-16 bg-gray-50">
+        <Menu />
+      </section>
+      <section id="ubicacion" class="py-16">
+        <Location />
+      </section>
+      <section id="contacto" class="py-16 bg-gray-50">
+        <Contact />
+      </section>
+    </main>
+    <Footer />
+    <script is:inline>
+      document.querySelectorAll('#mobile-menu a').forEach(link => {
+        link.addEventListener('click', () => {
+          document.getElementById('mobile-menu')?.classList.add('hidden');
+        });
+      });
+    </script>
+  </body>
+</html>

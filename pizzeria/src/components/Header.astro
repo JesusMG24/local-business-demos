@@ -1,0 +1,37 @@
+<header class="bg-white shadow-md fixed top-0 left-0 w-full z-50">
+  <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+    <a href="/" class="flex items-center gap-2 text-2xl font-bold text-red-600">
+      🍕 Pizzería La Tradición
+    </a>
+
+    <nav class="hidden md:flex gap-8 text-gray-700 font-medium">
+      <a href="/" class="hover:text-red-600 transition">Inicio</a>
+      <a href="#menu" class="hover:text-red-600 transition">Menú</a>
+      <a href="#ubicacion" class="hover:text-red-600 transition">Ubicación</a>
+      <a href="#contacto" class="hover:text-red-600 transition">Contacto</a>
+    </nav>
+
+    <button
+      id="menu-btn"
+      class="md:hidden text-2xl text-gray-700 focus:outline-none"
+      aria-label="Abrir menú"
+    >
+      ☰
+    </button>
+  </div>
+
+  <nav
+    id="mobile-menu"
+    class="md:hidden flex flex-col items-center bg-white border-t border-gray-200 hidden py-4 space-y-4 text-gray-700 font-medium"
+  >
+    <a href="#inicio" class="hover:text-red-600">Inicio</a>
+    <a href="#menu" class="hover:text-red-600">Menú</a>
+    <a href="#ubicacion" class="hover:text-red-600">Ubicación</a>
+    <a href="#contacto" class="hover:text-red-600">Contacto</a>
+  </nav>
+  <script>
+    document.getElementById('menu-btn')?.addEventListener('click', () => {
+      document.getElementById('mobile-menu')?.classList.toggle('hidden');
+    });
+  </script>
+</header>

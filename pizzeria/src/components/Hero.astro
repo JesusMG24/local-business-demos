@@ -1,0 +1,30 @@
+---
+const heroImage = "/images/hero.jpg";
+---
+
+<section class="relative h-[85vh] flex items-center justify-center text-center text-white">
+  <img
+    src={heroImage}
+    alt="Pizzería La Tradición - pizza artesanal"
+    class="absolute inset-0 w-full h-full object-cover brightness-50"
+    loading="lazy"
+  />
+
+  <div class="relative z-10 max-w-2xl px-6">
+    <h1 class="text-4xl md:text-6xl font-extrabold mb-4 drop-shadow-lg">
+      🍕 Pizzería La Tradición
+    </h1>
+    <p class="text-lg md:text-xl mb-6 text-gray-100 drop-shadow-md">
+      Pizza artesanal al horno de piedra — hecha con amor en Mérida ❤️
+    </p>
+
+    <a
+      href="https://wa.me/529991234567"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="inline-block bg-red-600 hover:bg-red-700 text-white text-lg font-semibold px-6 py-3 rounded-full transition-all shadow-lg hover:shadow-xl"
+    >
+      ¡Haz tu pedido ahora!
+    </a>
+  </div>
+</section>
