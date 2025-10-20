@@ -18,21 +18,6 @@ This project is part of my demo portfolio showcasing small business websites —
 
 ---
 
-## 🧱 Project Structure
-
-/
-├── public/ # Static assets (images, icons, etc.)
-├── src/
-│ ├── components/ # Reusable UI components (Hero, Menu, Contact, etc.)
-│ └── pages/
-│ └── pages/
-├── astro.config.mjs
-├── package-lock.json
-├── package.json
-└── tsconfig.json
-
----
-
 ## 💡 Features
 
 - Fully responsive on all devices
