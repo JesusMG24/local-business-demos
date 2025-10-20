@@ -1,43 +1,68 @@
-# Astro Starter Kit: Minimal
+# 🍕 Pizzería La Tradición — Landing Page Demo
 
-```sh
-npm create astro@latest -- --template minimal
-```
+A modern, fast, and responsive landing page for a local pizzeria, built with **Astro** and **TailwindCSS**.  
+This project is part of my demo portfolio showcasing small business websites — optimized for speed, SEO, and conversions.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 🚀 Live Demo
 
-## 🚀 Project Structure
+👉 [View Website on Netlify](https://pizzeria-demo.netlify.app)
 
-Inside of your Astro project, you'll see the following folders and files:
+---
 
-```text
+## 🧩 Tech Stack
+
+- **Astro** — Static-first framework for ultra-fast sites
+- **TailwindCSS** — Utility-first CSS framework for clean, responsive design
+- **TypeScript (optional)** — For cleaner, safer components
+- **Netlify** — Easy and fast deployment
+
+---
+
+## 🧱 Project Structure
+
 /
-├── public/
+├── public/ # Static assets (images, icons, etc.)
 ├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+│ ├── components/ # Reusable UI components (Hero, Menu, Contact, etc.)
+│ └── pages/
+│ └── pages/
+├── astro.config.mjs
+├── package-lock.json
+├── package.json
+└── tsconfig.json
+
+---
+
+## 💡 Features
+
+- Fully responsive on all devices
+- Clean, modern design
+- SEO-optimized meta tags
+- Fast loading times (Astro + Netlify)
+- Perfect as a base for real-world small business websites
+
+---
+
+## 🧠 Purpose
+
+This project demonstrates how a local business (like a **pizzeria**, **nail salon**, or **café**) can benefit from a modern, fast, and visually appealing website.  
+It’s designed to be quickly adaptable to other businesses with minimal edits.
+
+---
+
+## ⚙️ Setup & Development
+
+Clone the repo and install dependencies:
+
+```bash
+npm install
+npm run dev
+
+Then open http://localhost:4321
+
+to view the project locally.
+
+To build for production:
+
+npm run build
 ```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
