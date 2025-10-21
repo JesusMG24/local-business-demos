@@ -5,7 +5,7 @@ This project is part of my demo portfolio showcasing small business websites —
 
 ## 🚀 Live Demo
 
-👉 [View Website on Netlify](https://your-netlify-link.netlify.app)
+👉 [View Website on Netlify](https://cafeteria-demo-mx.netlify.app)
 
 ---
 
