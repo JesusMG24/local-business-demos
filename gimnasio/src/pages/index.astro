@@ -1,0 +1,35 @@
+---
+import "../styles/global.css";
+import Header from "../components/Header.astro"
+import Hero from "../components/Hero.astro";
+import Servicios from "../components/Servicios.astro"
+import Planes from "../components/Planes.astro";
+import Ubicacion from "../components/Ubicacion.astro";
+import Contact from "../components/Contact.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Gimnasio Energía – Transforma tu cuerpo y supera tus límites</title>
+		<meta name="description" content="Gimnasio Energía en Mérida, Yucatán. Entrenamiento personal, clases grupales, área de pesas y planes adaptados para todos los niveles. Únete hoy y alcanza tus objetivos." />
+		<meta property="og:title" content="Gimnasio Energía – Transforma tu cuerpo" />
+		<meta property="og:description" content="Entrenamiento personal, clases grupales, área de pesas y planes adaptados para todos los niveles en Mérida, Yucatán." />
+		<meta property="og:image" content="/gym-hero.jpg" />
+		<meta property="og:url" content="" />
+		<meta property="og:type" content="website" />
+	</head>
+	<body>
+		<Header />
+		<Hero />
+		<Servicios />
+		<Planes />
+		<Ubicacion />
+		<Contact />
+		<Footer />
+	</body>
+</html>
